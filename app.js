@@ -360,7 +360,7 @@
   function showSlide(i, dir = 0) {
     const count = ticket.count;
     slide = Math.min(count - 1, Math.max(0, i));
-    els.qr.innerHTML = buildQrSvg(`NOT A TICKET - eventdim demo ${ticket.renderId} ${slide + 1}/${count}`);
+    els.qr.innerHTML = buildQrSvg(` `);
     els.tType.textContent = `${ticket.type} • Ticket ${slide + 1} of ${count}`;
 
     els.qrRow.classList.toggle('single', count === 1);
