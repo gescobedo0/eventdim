@@ -333,7 +333,7 @@
       + `<g fill="#111018"><path shape-rendering="crispEdges" d="${modules}"/>`
       + finder(0, 0) + finder(n - 7, 0) + finder(0, n - 7) + '</g>'
       + `<rect x="${lo + 0.3}" y="${lo + 0.3}" width="${tile}" height="${tile}" rx="${k * 0.2}" fill="#fff" stroke="#e6e4ef" stroke-width="0.25"/>`
-      + `<image href="assets/logo.png" x="${lo + pad}" y="${lo + pad}" width="${k - pad * 2}" height="${k - pad * 2}" preserveAspectRatio="xMidYMid meet"/>`
+      + `<image href="assets/logo2.png" x="${lo + pad}" y="${lo + pad}" width="${k - pad * 2}" height="${k - pad * 2}" preserveAspectRatio="xMidYMid meet"/>`
       + '</svg>';
   }
 
